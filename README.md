@@ -63,7 +63,7 @@ docker images
 ```
 
 ```
-- Stage 2
+- Stage 3
 ```
 
 ## Run
