@@ -62,6 +62,10 @@ docker build -t 18091982/codeeducation .
 docker images
 ```
 
+```
+- Stage 2
+```
+
 ## Run
 docker run 18091982/codeeducation
 
