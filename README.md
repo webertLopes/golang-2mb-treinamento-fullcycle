@@ -22,8 +22,6 @@ Divirta-se
 
 ## Utilizando o multi-stage build para compilar a aplicação e otimizar a imagem
 
-## Dockerfile.scratch
-
 - Stage 1
 
 ```
@@ -39,6 +37,7 @@ ADD . .
 RUN go mod init menos-de-2mb
 RUN CGO_ENABLED=0 go build -o app
 
+## Dockerfile.scratch
 
 ```
 - Stage 2
@@ -71,7 +70,7 @@ docker run 18091982/codeeducation
 
 
 # Resultado
-docker run 18091982/codeeducation
+Code.education Rocks!
 
 
 
